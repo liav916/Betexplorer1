@@ -43,7 +43,7 @@ public class BasePage
         } catch (InterruptedException o) {
             o.printStackTrace();
         }
-
+//
     }
     public void scrollToElementAndClick(WebElement element) {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
