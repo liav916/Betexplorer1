@@ -13,7 +13,7 @@ public class Print extends BaseTest {
 
 
     @Test
-    public void test01getAdvertisement () {
+    public void test01getAdvertisement () throws InterruptedException{
         driver.get("https://www.betexplorer.com/#all");
         homePage.clickOniAcceptButtonAndShowAllCountries();
 homePage.ClickOnAllCountries();
