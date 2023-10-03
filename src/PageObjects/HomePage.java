@@ -51,6 +51,7 @@ else if (leauge.size()==72){
    leagueName.click();
 }
     }
+    //
     public void getAllText() {
         List<WebElement> Teams;
         Teams = driver.findElements(By.cssSelector("[class='list-events list-events--secondary js-divlinks'] li"));
